@@ -5,8 +5,155 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    body {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      background-color: #fffffe;
+      display: flex;
+      justify-content: center;
+    }
+    .banner{
+      display: flex;
+      justify-content: center;
+    }
+    
+    .banner-image {
+      width: 128px;
+      height: 128px;
+      object-fit: cover;
+      border-radius: 128px;
+      display: flex;
+      justify-content: center;
+    }
+    .thumbnail {
+      width: 48px;
+      height: 48px;
+      border-radius: 48px;
+      object-fit: cover;
+      margin: auto;
+    }
+    .name {
+      color: #0d0d0d;
+      justify-content: center;
+      display: flex;
+      justify-content: center;
+    }
+    .social-icons {
+      color:#0d0d0d;
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+    }
+    .content-icons {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+    .link {
+      background-color: #ff8e3c;
+      display: flex;
+      align-items: center;
+      padding: 5px;
+    }
+    .link a{
+      color: #fffffe;
+      text-decoration: none;
+      text-align: center;
+      display: flex;
+      flex-grow: 1;
+    }
+    .items {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 640px;
+      flex-grow: 1;
+    }
+  </style>
+
 </head>
 <body>
-  <h1>Hello world!</h1>
+  <div class="items">
+    <div class="banner">
+      <img src="profile-pic-cropped.jpg" alt="Raj Singh headshot" class="banner-image">
+    </div>
+
+    <div class="name">
+      Raj Singh
+    </div>
+
+    <div class="social-icons">
+      <a href="https://github.com/rwsingh40" target="_blank">
+        GitHub
+      </a>
+    
+      <a href="https://www.linkedin.com/in/rwsingh/" target="_blank">
+        LinkedIn
+      </a>
+    
+      <a href="https://www.facebook.com/raj.w.singh" target="_blank">
+        Facebook
+      </a>
+    </div>
+
+    <div class="content-icons">
+      <div class="link">
+        <img
+          src="Junot_wao_cover.jpg" class="thumbnail" alt="Cover art of The Brief Wondrous Life of Oscar Wao">
+      
+        <a target="_blank" href="https://www.goodreads.com/book/show/297673.The_Brief_Wondrous_Life_of_Oscar_Wao">Book</a>
+      </div>
+    
+      <div class="link">
+        <img
+          src="Arsenal_FC.svg" class="thumbnail" alt="Arsenal FC Logo">
+      
+        <a target="_blank" href="https://www.imdb.com/title/tt15012798/">TV</a>
+      </div>
+    
+      <div class="link">
+        <img
+          src="CidadedeDeus.jpg" class="thumbnail" alt="Cover Art of The City of God initial release">
+      
+        <a target="_blank" href="https://www.imdb.com/title/tt15012798/">Movie</a>
+      </div>
+    
+      <div class="link">
+        <img
+          src="Bon_Entendeur_2022.jpg" class="thumbnail" alt="Bon Entendur Live Concert in 2022">
+      
+        <a target="_blank" href="https://open.spotify.com/artist/2lwjwKfYZCuPEJOo8t32CD?si=8ANO5TgsT2OmJycnpeY6JA">Music</a>
+      </div>
+    
+      <div class="link">
+        <img
+          src="tacos.jpg" class="thumbnail" alt="Photo of tacos">
+      
+        <a target="_blank" href="https://www.bonappetit.com/recipe/beet-tostadas-with-fried-eggs">Food</a>
+      </div>
+    
+        <div class="link">
+        <img
+          src="espresso martini.jpg" class="thumbnail" alt="Photo of an espresso martini">
+      
+        <a target="_blank" href="https://punchdrink.com/recipes/flatliner/">Drink</a>
+      </div>
+    
+      <div class="link">
+        <img
+          src="Fernando_Botero_‘Guerrilla_de_Eliseo_Velásquez'.jpg" class="thumbnail" alt="Image of Fernando Botero's Guerrilla de Eliseo Velásquez">
+      
+        <a target="_blank" href="https://www.widewalls.ch/magazine/fernando-botero-paintings">Art</a>
+      </div>
+    
+      <div class="link">
+        <img
+          src="Catan-2015-boxart.jpg" class="thumbnail" alt="Catan board game box art from 2015">
+      
+        <a target="_blank" href="https://www.catan.com/">Game</a>
+      </div>  
+    </div>
+  </div>
 </body>
 </html>
